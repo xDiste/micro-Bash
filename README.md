@@ -1,3 +1,3 @@
 # micro-Bash
 
-Bash in C with basic functionality
+Bash in C with simple functionality
