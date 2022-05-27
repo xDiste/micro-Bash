@@ -1,8 +1,9 @@
 #include "parser.h"
 
 // auxiliary function that takes care of checking if the pipe is inside the command line entered by the userbool checkPipe(char *line)
+bool checkPipe(char *line)
 {
-    return (strstr(line,"|") != NULL);
+        return (strstr(line,"|") != NULL);
 }
 
 // auxiliary function that controls which stream you want to redirect
